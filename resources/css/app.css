@@ -77,34 +77,6 @@
     @apply bg-gray-900;
 }
 
-.btn {
-    @apply text-white font-medium rounded-lg text-sm px-5 py-2.5 scale-100 hover:scale-105 focus:outline-none;
-}
-
-.btn__pills {
-    @apply rounded-full;
-}
-
-.btn__primary {
-    @apply bg-sky-500 hover:bg-sky-600 focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-sky-700 dark:focus:ring-sky-700;
-}
-
-.btn__danger {
-    @apply bg-rose-500 hover:bg-rose-600 focus:ring-rose-300 dark:bg-rose-600 dark:hover:bg-rose-700 dark:focus:ring-rose-700;
-}
-
-.btn__success {
-    @apply bg-teal-500 hover:bg-teal-600 focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-700;
-}
-
-.btn__warning {
-    @apply bg-amber-500 hover:bg-amber-600 focus:ring-amber-300 dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-700;
-}
-
-.btn__info {
-    @apply bg-indigo-500 hover:bg-indigo-800 focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-700;
-}
-
-.btn__secondary {
-    @apply bg-gray-500 hover:bg-gray-800 focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800;
+label {
+    @apply absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6;
 }

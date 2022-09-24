@@ -97,19 +97,108 @@
 
                 <div class="mt-5">
                     <h1 class="text-6xl">Hello World</h1>
-                    <a href="" class="btn btn__primary">test</a>
-                    <a href="" class="btn btn__danger">test</a>
-                    <a href="" class="btn btn__warning">test</a>
-                    <a href="" class="btn btn__success">test</a>
-                    <a href="" class="btn btn__info">test</a>
-                    <a href="" class="btn btn__secondary">test</a>
 
-                    <a href="" class="btn btn__pills btn__primary">test</a>
-                    <a href="" class="btn btn__pills btn__danger">test</a>
-                    <a href="" class="btn btn__pills btn__warning">test</a>
-                    <a href="" class="btn btn__pills btn__success">test</a>
-                    <a href="" class="btn btn__pills btn__info">test</a>
-                    <a href="" class="btn btn__pills btn__secondary">test</a>
+                    <div class="mt-10">
+                        <h5 class="text-2xl ">Input</h5>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                            <div class="">
+                                <p>Default</p>
+                                <x-input type="text" name="input_components" />
+                            </div>
+                            <div class="">
+                                <p>Required</p>
+                                <x-input type="text" name="required" required />
+                            </div>
+                            <div class="">
+                                <p>Autofocus</p>
+                                <x-input type="text" name="autofocus" autofocus />
+                            </div>
+                            <div class="">
+                                <p>Disabled</p>
+                                <x-input type="text" name="disabled" disabled />
+                            </div>
+                            <div class="">
+                                <p>readonly</p>
+                                <x-input type="text" name="readonly" value="here form readonly" readonly />
+                            </div>
+                            <div class="">
+                                <p>value</p>
+                                <x-input type="text" name="value" value="Value Input" />
+                            </div>
+                            <div class="">
+                                <p>class & id</p>
+                                <x-input type="text" name="class" class="" id="" />
+                            </div>
+                            <div class="">
+                                <p>custom label</p>
+                                <x-input type="text" name="label" label="Hello From label" />
+                            </div>
+                            <div class="">
+                                <p>helpers text</p>
+                                <x-input type="text" name="helpers" label="Helpers" helpers="Hello Helpers Here" />
+                            </div>
+                            <div class="">
+                                <p>js state</p>
+                                <x-input type="text" name="state" label="state" onclick="click_event()" onchange="change_event()" onkeyup="keyup_event()" onblur="blur_event()" />
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
+
+                            <div class="">
+                                <x-button label="Primary" color="primary" size="sm" />
+                                <x-button label="Primary" color="primary" />
+                                <x-button label="Primary" color="primary" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="danger" color="danger" size="sm" />
+                                <x-button label="danger" color="danger" />
+                                <x-button label="danger" color="danger" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="warning" color="warning" size="sm" />
+                                <x-button label="warning" color="warning" />
+                                <x-button label="warning" color="warning" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="success" color="success" size="sm" />
+                                <x-button label="success" color="success" />
+                                <x-button label="success" color="success" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="info" color="info" size="sm" />
+                                <x-button label="info" color="info" />
+                                <x-button label="info" color="info" size="lg" />
+                            </div>
+
+                            <div class="">
+                                <x-button label="primary" style="outline" color="primary" size="sm" />
+                                <x-button label="primary" style="outline" color="primary" />
+                                <x-button label="primary" style="outline" color="primary" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="danger" style="outline" color="danger" size="sm" />
+                                <x-button label="danger" style="outline" color="danger" />
+                                <x-button label="danger" style="outline" color="danger" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="warning" style="outline" color="warning" size="sm" />
+                                <x-button label="warning" style="outline" color="warning" />
+                                <x-button label="warning" style="outline" color="warning" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="success" style="outline" color="success" size="sm" />
+                                <x-button label="success" style="outline" color="success" />
+                                <x-button label="success" style="outline" color="success" size="lg" />
+                            </div>
+                            <div class="">
+                                <x-button label="info" style="outline" color="info" size="sm" />
+                                <x-button label="info" style="outline" color="info" />
+                                <x-button label="info" style="outline" color="info" size="lg" />
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -126,6 +215,21 @@
             </svg>
         </button>
     </div>
+
+    <script>
+        const click_event = () => {
+            console.log('click event');
+        }
+        const change_event = () => {
+            console.log('change_event');
+        }
+        const keyup_event = () => {
+            console.log('keyup_event');
+        }
+        const blur_event = () => {
+            console.log('blur_event');
+        }
+    </script>
 </body>
 
 </html>
