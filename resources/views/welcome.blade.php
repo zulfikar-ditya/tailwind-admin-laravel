@@ -15,44 +15,49 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class=" bg-sky-50 dark:bg-zinc-900 text-gray-900 dark:text-white">
+<body class="bg-sky-50 dark:bg-zinc-900 text-gray-900 dark:text-white">
 
-    <div class="flex p-5">
-
-        <aside class="hidden md:block w-0 md:w-80" aria-label="Sidebar">
-            <div class="overflow-y-auto py-5 px-3 bg-sky-400 rounded dark:bg-sky-800 h-[96vh] text-white">
+    <div class="fixed hidden md:block inset-x-5 inset-y-5 w-80" id="sidebar">
+        <aside class="" aria-label="Sidebar">
+            <div class="overflow-y-auto py-5 px-3 bg-sky-400 rounded dark:bg-sky-800 h-[96vh] text-white shadow-md">
                 <a href="https://flowbite.com/" class="flex items-center pl-2.5 mb-5">
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Laravel Admin</span>
                 </a>
                 <hr>
                 <ul class="space-y-2 mt-7">
                     <li>
-                        <a href="#" class="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-                            <svg aria-hidden="true" class="w-6 h-6 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
-                                <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
-                            </svg>
+                        <a href="#" class="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-sky-50 hover:text-sky-400 dark:hover:text-gray-500">
                             <span class="ml-3">Dashboard</span>
                         </a>
                     </li>
                 </ul>
             </div>
         </aside>
+    </div>
 
-        <main class="w-full pl-5">
+    <div class="flex p-5">
+
+        <main class="w-full ml-0 md:ml-80 pl-5">
 
             <nav class="bg-sky-400 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-sky-800">
-                <div class="container flex flex-wrap justify-end items-center mx-auto">
+                <div class="container flex flex-wrap justify-between items-center mx-auto">
+                    <button data-collapse-toggle="sidebar" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="sidebar" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
                     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
                         </svg>
                     </button>
-                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul class="flex flex-col p-4 mt-4 bg-sky-400 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-sky-400 dark:bg-sky-800 dark:border-gray-700">
+                    <div class="hidden w-full md:block ml-auto md:w-auto" id="navbar-default">
+                        <ul class="flex flex-col p-4 mt-4 bg-sky-400 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:bg-sky-400 dark:bg-sky-800">
                             <li>
-                                <a href="#" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">Logout</a>
+                                <a href="#" class="block py-2 pr-4 pl-3 bg-sky-400 rounded md:bg-transparent md:p-0 text-white" aria-current="page">Home</a>
                             </li>
                         </ul>
                     </div>
@@ -97,6 +102,7 @@
 
         </main>
     </div>
+
     <div class="fixed right-10 bottom-10">
         <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-white-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
             <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

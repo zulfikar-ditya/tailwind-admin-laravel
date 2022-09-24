@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/**
+ * root styles
+ */
+
+:root {
+    /* --primary: @apply sky-500; */
+}
