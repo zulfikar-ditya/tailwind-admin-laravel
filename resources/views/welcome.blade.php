@@ -97,6 +97,19 @@
 
                 <div class="mt-5">
                     <h1 class="text-6xl">Hello World</h1>
+                    <a href="" class="btn btn__primary">test</a>
+                    <a href="" class="btn btn__danger">test</a>
+                    <a href="" class="btn btn__warning">test</a>
+                    <a href="" class="btn btn__success">test</a>
+                    <a href="" class="btn btn__info">test</a>
+                    <a href="" class="btn btn__secondary">test</a>
+
+                    <a href="" class="btn btn__pills btn__primary">test</a>
+                    <a href="" class="btn btn__pills btn__danger">test</a>
+                    <a href="" class="btn btn__pills btn__warning">test</a>
+                    <a href="" class="btn btn__pills btn__success">test</a>
+                    <a href="" class="btn btn__pills btn__info">test</a>
+                    <a href="" class="btn btn__pills btn__secondary">test</a>
                 </div>
             </div>
 
