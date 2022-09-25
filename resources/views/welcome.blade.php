@@ -10,6 +10,7 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -145,56 +146,329 @@
 
                         <div class="mt-10">
 
-                            <div class="">
-                                <x-button label="Primary" color="primary" size="sm" />
-                                <x-button label="Primary" color="primary" />
-                                <x-button label="Primary" color="primary" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="danger" color="danger" size="sm" />
-                                <x-button label="danger" color="danger" />
-                                <x-button label="danger" color="danger" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="warning" color="warning" size="sm" />
-                                <x-button label="warning" color="warning" />
-                                <x-button label="warning" color="warning" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="success" color="success" size="sm" />
-                                <x-button label="success" color="success" />
-                                <x-button label="success" color="success" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="info" color="info" size="sm" />
-                                <x-button label="info" color="info" />
-                                <x-button label="info" color="info" size="lg" />
-                            </div>
+                            <h5 class="text-2xl">Button</h5>
+                            <div class="flex flex-wrap">
+                                <div class="w-full md:w-4/12">
+                                    <div class="row">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="Primary" color="primary" size="sm" />
+                                                <x-button label="Primary" color="primary" />
+                                                <x-button label="Primary" color="primary" size="lg" />
+                                                <x-button label="Primary" color="primary" rounded />
+                                                <x-button label="Primary" color="primary" icon="user" fontawesome />
+                                                <x-button label="Primary" color="primary" icon="user" fontawesome iconRight />
+                                                <x-button label="Primary" color="primary" icon="user" />
+                                                <x-button label="Primary" color="primary" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="danger" color="danger" size="sm" />
+                                                <x-button label="danger" color="danger" />
+                                                <x-button label="danger" color="danger" size="lg" />
+                                                <x-button label="danger" color="danger" rounded />
+                                                <x-button label="danger" color="danger" icon="user" fontawesome />
+                                                <x-button label="danger" color="danger" icon="user" fontawesome iconRight />
+                                                <x-button label="danger" color="danger" icon="user" />
+                                                <x-button label="danger" color="danger" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="warning" color="warning" size="sm" />
+                                                <x-button label="warning" color="warning" />
+                                                <x-button label="warning" color="warning" size="lg" />
+                                                <x-button label="warning" color="warning" rounded />
+                                                <x-button label="warning" color="warning" icon="user" fontawesome />
+                                                <x-button label="warning" color="warning" icon="user" fontawesome iconRight />
+                                                <x-button label="warning" color="warning" icon="user" />
+                                                <x-button label="warning" color="warning" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="success" color="success" size="sm" />
+                                                <x-button label="success" color="success" />
+                                                <x-button label="success" color="success" size="lg" />
+                                                <x-button label="success" color="success" rounded />
+                                                <x-button label="success" color="success" icon="user" fontawesome />
+                                                <x-button label="success" color="success" icon="user" fontawesome iconRight />
+                                                <x-button label="success" color="success" icon="user" />
+                                                <x-button label="success" color="success" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="info" color="info" size="sm" />
+                                                <x-button label="info" color="info" />
+                                                <x-button label="info" color="info" size="lg" />
+                                                <x-button label="info" color="info" rounded />
+                                                <x-button label="info" color="info" icon="user" fontawesome />
+                                                <x-button label="info" color="info" icon="user" fontawesome iconRight />
+                                                <x-button label="info" color="info" icon="user" />
+                                                <x-button label="info" color="info" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="light" color="light" size="sm" />
+                                                <x-button label="light" color="light" />
+                                                <x-button label="light" color="light" size="lg" />
+                                                <x-button label="light" color="light" rounded />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="secondary" color="secondary" size="sm" />
+                                                <x-button label="secondary" color="secondary" />
+                                                <x-button label="secondary" color="secondary" size="lg" />
+                                                <x-button label="secondary" color="secondary" rounded />
+                                                <x-button label="secondary" color="secondary" icon="user" fontawesome />
+                                                <x-button label="secondary" color="secondary" icon="user" fontawesome iconRight />
+                                                <x-button label="secondary" color="secondary" icon="user" />
+                                                <x-button label="secondary" color="secondary" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="dark" color="dark" size="sm" />
+                                                <x-button label="dark" color="dark" />
+                                                <x-button label="dark" color="dark" size="lg" />
+                                                <x-button label="dark" color="dark" rounded />
+                                                <x-button label="dark" color="dark" icon="user" fontawesome />
+                                                <x-button label="dark" color="dark" icon="user" fontawesome iconRight />
+                                                <x-button label="dark" color="dark" icon="user" />
+                                                <x-button label="dark" color="dark" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-4/12">
+                                    <div class="row">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="primary" style="outline" color="primary" size="sm" />
+                                                <x-button label="primary" style="outline" color="primary" />
+                                                <x-button label="primary" style="outline" color="primary" size="lg" />
+                                                <x-button label="primary" style="outline" color="primary" rounded />
+                                                <x-button label="primary" color="primary" style="outline" icon="user" fontawesome />
+                                                <x-button label="primary" color="primary" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="primary" color="primary" style="outline" icon="user" />
+                                                <x-button label="primary" color="primary" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="danger" style="outline" color="danger" size="sm" />
+                                                <x-button label="danger" style="outline" color="danger" />
+                                                <x-button label="danger" style="outline" color="danger" size="lg" />
+                                                <x-button label="danger" style="outline" color="danger" rounded />
+                                                <x-button label="danger" color="danger" style="outline" icon="user" fontawesome />
+                                                <x-button label="danger" color="danger" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="danger" color="danger" style="outline" icon="user" />
+                                                <x-button label="danger" color="danger" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="warning" style="outline" color="warning" size="sm" />
+                                                <x-button label="warning" style="outline" color="warning" />
+                                                <x-button label="warning" style="outline" color="warning" size="lg" />
+                                                <x-button label="warning" style="outline" color="warning" rounded />
+                                                <x-button label="warning" color="warning" style="outline" icon="user" fontawesome />
+                                                <x-button label="warning" color="warning" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="warning" color="warning" style="outline" icon="user" />
+                                                <x-button label="warning" color="warning" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="success" style="outline" color="success" size="sm" />
+                                                <x-button label="success" style="outline" color="success" />
+                                                <x-button label="success" style="outline" color="success" size="lg" />
+                                                <x-button label="success" style="outline" color="success" rounded />
+                                                <x-button label="success" color="success" style="outline" icon="user" fontawesome />
+                                                <x-button label="success" color="success" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="success" color="success" style="outline" icon="user" />
+                                                <x-button label="success" color="success" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="info" style="outline" color="info" size="sm" />
+                                                <x-button label="info" style="outline" color="info" />
+                                                <x-button label="info" style="outline" color="info" size="lg" />
+                                                <x-button label="info" style="outline" color="info" rounded />
+                                                <x-button label="info" color="info" style="outline" icon="user" fontawesome />
+                                                <x-button label="info" color="info" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="info" color="info" style="outline" icon="user" />
+                                                <x-button label="info" color="info" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="light" style="outline" color="light" size="sm" />
+                                                <x-button label="light" style="outline" color="light" />
+                                                <x-button label="light" style="outline" color="light" size="lg" />
+                                                <x-button label="light" style="outline" color="light" rounded />
+                                                <x-button label="light" color="light" style="outline" icon="user" fontawesome />
+                                                <x-button label="light" color="light" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="light" color="light" style="outline" icon="user" />
+                                                <x-button label="light" color="light" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="secondary" style="outline" color="secondary" size="sm" />
+                                                <x-button label="secondary" style="outline" color="secondary" />
+                                                <x-button label="secondary" style="outline" color="secondary" size="lg" />
+                                                <x-button label="secondary" style="outline" color="secondary" rounded />
+                                                <x-button label="secondary" color="secondary" style="outline" icon="user" fontawesome />
+                                                <x-button label="secondary" color="secondary" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="secondary" color="secondary" style="outline" icon="user" />
+                                                <x-button label="secondary" color="secondary" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="dark" style="outline" color="dark" size="sm" />
+                                                <x-button label="dark" style="outline" color="dark" />
+                                                <x-button label="dark" style="outline" color="dark" size="lg" />
+                                                <x-button label="dark" style="outline" color="dark" rounded />
+                                                <x-button label="dark" color="dark" style="outline" icon="user" fontawesome />
+                                                <x-button label="dark" color="dark" style="outline" icon="user" fontawesome iconRight />
+                                                <x-button label="dark" color="dark" style="outline" icon="user" />
+                                                <x-button label="dark" color="dark" style="outline" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-4/12">
+                                    <div class="row">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="primary" style="gradient" color="primary" size="sm" />
+                                                <x-button label="primary" style="gradient" color="primary" />
+                                                <x-button label="primary" style="gradient" color="primary" size="lg" />
+                                                <x-button label="primary" style="gradient" color="primary" rounded />
+                                                <x-button label="primary" color="primary" style="gradient" icon="user" fontawesome />
+                                                <x-button label="primary" color="primary" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="primary" color="primary" style="gradient" icon="user" />
+                                                <x-button label="primary" color="primary" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="danger" style="gradient" color="danger" size="sm" />
+                                                <x-button label="danger" style="gradient" color="danger" />
+                                                <x-button label="danger" style="gradient" color="danger" size="lg" />
+                                                <x-button label="danger" style="gradient" color="danger" rounded />
+                                                <x-button label="danger" color="danger" style="gradient" icon="user" fontawesome />
+                                                <x-button label="danger" color="danger" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="danger" color="danger" style="gradient" icon="user" />
+                                                <x-button label="danger" color="danger" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="warning" style="gradient" color="warning" size="sm" />
+                                                <x-button label="warning" style="gradient" color="warning" />
+                                                <x-button label="warning" style="gradient" color="warning" size="lg" />
+                                                <x-button label="warning" style="gradient" color="warning" rounded />
+                                                <x-button label="warning" color="warning" style="gradient" icon="user" fontawesome />
+                                                <x-button label="warning" color="warning" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="warning" color="warning" style="gradient" icon="user" />
+                                                <x-button label="warning" color="warning" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="success" style="gradient" color="success" size="sm" />
+                                                <x-button label="success" style="gradient" color="success" />
+                                                <x-button label="success" style="gradient" color="success" size="lg" />
+                                                <x-button label="success" style="gradient" color="success" rounded />
+                                                <x-button label="success" color="success" style="gradient" icon="user" fontawesome />
+                                                <x-button label="success" color="success" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="success" color="success" style="gradient" icon="user" />
+                                                <x-button label="success" color="success" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="info" style="gradient" color="info" size="sm" />
+                                                <x-button label="info" style="gradient" color="info" />
+                                                <x-button label="info" style="gradient" color="info" size="lg" />
+                                                <x-button label="info" style="gradient" color="info" rounded />
+                                                <x-button label="info" color="info" style="gradient" icon="user" fontawesome />
+                                                <x-button label="info" color="info" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="info" color="info" style="gradient" icon="user" />
+                                                <x-button label="info" color="info" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="light" style="gradient" color="light" size="sm" />
+                                                <x-button label="light" style="gradient" color="light" />
+                                                <x-button label="light" style="gradient" color="light" size="lg" />
+                                                <x-button label="light" style="gradient" color="light" rounded />
+                                                <x-button label="light" color="light" style="gradient" icon="user" fontawesome />
+                                                <x-button label="light" color="light" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="light" color="light" style="gradient" icon="user" />
+                                                <x-button label="light" color="light" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="secondary" style="gradient" color="secondary" size="sm" />
+                                                <x-button label="secondary" style="gradient" color="secondary" />
+                                                <x-button label="secondary" style="gradient" color="secondary" size="lg" />
+                                                <x-button label="secondary" style="gradient" color="secondary" rounded />
+                                                <x-button label="secondary" color="secondary" style="gradient" icon="user" fontawesome />
+                                                <x-button label="secondary" color="secondary" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="secondary" color="secondary" style="gradient" icon="user" />
+                                                <x-button label="secondary" color="secondary" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <div class="">
+                                                <x-button label="dark" style="gradient" color="dark" size="sm" />
+                                                <x-button label="dark" style="gradient" color="dark" />
+                                                <x-button label="dark" style="gradient" color="dark" size="lg" />
+                                                <x-button label="dark" style="gradient" color="dark" rounded />
+                                                <x-button label="dark" color="dark" style="gradient" icon="user" fontawesome />
+                                                <x-button label="dark" color="dark" style="gradient" icon="user" fontawesome iconRight />
+                                                <x-button label="dark" color="dark" style="gradient" icon="user" />
+                                                <x-button label="dark" color="dark" style="gradient" icon="user" iconRight />
+                                            </div>
+                                        </div>
+                                    </div>
 
-                            <div class="">
-                                <x-button label="primary" style="outline" color="primary" size="sm" />
-                                <x-button label="primary" style="outline" color="primary" />
-                                <x-button label="primary" style="outline" color="primary" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="danger" style="outline" color="danger" size="sm" />
-                                <x-button label="danger" style="outline" color="danger" />
-                                <x-button label="danger" style="outline" color="danger" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="warning" style="outline" color="warning" size="sm" />
-                                <x-button label="warning" style="outline" color="warning" />
-                                <x-button label="warning" style="outline" color="warning" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="success" style="outline" color="success" size="sm" />
-                                <x-button label="success" style="outline" color="success" />
-                                <x-button label="success" style="outline" color="success" size="lg" />
-                            </div>
-                            <div class="">
-                                <x-button label="info" style="outline" color="info" size="sm" />
-                                <x-button label="info" style="outline" color="info" />
-                                <x-button label="info" style="outline" color="info" size="lg" />
+                                </div>
+                                <div class="mt-10">
+                                    <div class="grid grid-cols-3 md:grid-cols-6 gap-5">
+                                        <div class="">
+                                            <p>Disabled</p>
+                                            <x-button label="disabled" color="primary" disabled />
+                                        </div>
+                                        <div class="">
+                                            <p>Link</p>
+                                            <x-button link="https://zulfikar-ditya.vercel.app" label="Link" color="primary" />
+                                        </div>
+                                        <div class="">
+                                            <p>Badge</p>
+                                            <x-button bagde label="Badge" color="primary" />
+                                        </div>
+                                        <div class="">
+                                            <p>class & id</p>
+                                            <x-button label="class & id" class="text-primary" id="id-btn" color="primary" />
+                                        </div>
+                                        <div class="">
+                                            <p>Javascript State</p>
+                                            <x-button label="javascript state" color="primary" onclick="click_btn()" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -228,6 +502,9 @@
         }
         const blur_event = () => {
             console.log('blur_event');
+        }
+        const click_btn = () => {
+            console.log('click btn');
         }
     </script>
 </body>
