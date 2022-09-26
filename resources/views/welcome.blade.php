@@ -145,7 +145,6 @@
                         </div>
 
                         <div class="mt-10">
-
                             <h5 class="text-2xl">Button</h5>
                             <div class="flex flex-wrap">
                                 <div class="w-full md:w-4/12">
@@ -467,10 +466,34 @@
                                             <p>Javascript State</p>
                                             <x-button label="javascript state" color="primary" onclick="click_btn()" />
                                         </div>
+                                        <div class="">
+                                            <p>Type</p>
+                                            <x-button type="submit" label="javascript state" color="primary" onclick="click_btn()" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="mt-10">
+                            <h5 class="text-2xl">Card</h5>
+
+                            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+                                <x-card title="title" class="" id>
+                                    <x-slot name="img">
+                                        <img src="https://images.pexels.com/photos/7267852/pexels-photo-7267852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img__fit rounded-t-lg" alt="">
+                                    </x-slot>
+                                    <x-slot name="head" class="" id="">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </x-slot>
+                                    <x-slot name="body" class="" id="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste est excepturi nihil vel. Error accusantium, provident est, quis minus aspernatur perspiciatis saepe excepturi, repellat mollitia voluptas unde expedita aperiam.</p>
+                                    </x-slot>
+                                    <x-slot name="footer" class="" id="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </x-slot>
+                                </x-card>
+                            </div>
                         </div>
                     </div>
                 </div>
