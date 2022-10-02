@@ -40,7 +40,7 @@
 
         <main class="w-full ml-0 md:ml-80 pl-5">
 
-            <nav class="bg-sky-400 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-sky-800">
+            <nav class="bg-sky-400 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-sky-800 z-50">
                 <div class="container flex flex-wrap justify-between items-center mx-auto">
                     <button data-collapse-toggle="sidebar" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="sidebar" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
@@ -478,21 +478,34 @@
                         <div class="mt-10">
                             <h5 class="text-2xl">Card</h5>
 
-                            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-                                <x-card title="title" class="" id>
+                            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                                <x-card title="title" class="" id="">
                                     <x-slot name="img">
                                         <img src="https://images.pexels.com/photos/7267852/pexels-photo-7267852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img__fit rounded-t-lg" alt="">
                                     </x-slot>
-                                    <x-slot name="head" class="" id="">
+                                    <x-slot name="head">
                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                                     </x-slot>
-                                    <x-slot name="body" class="" id="">
+                                    <x-slot name="body">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste est excepturi nihil vel. Error accusantium, provident est, quis minus aspernatur perspiciatis saepe excepturi, repellat mollitia voluptas unde expedita aperiam.</p>
                                     </x-slot>
-                                    <x-slot name="footer" class="" id="">
+                                    <x-slot name="footer">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </x-slot>
                                 </x-card>
+
+                                <x-card title="title" class="" id="" headClass="border border-gray-300" headId="head-example">
+                                    <x-slot name="body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste est excepturi nihil vel. Error accusantium, provident est, quis minus aspernatur perspiciatis saepe excepturi, repellat mollitia voluptas unde expedita aperiam.</p>
+                                    </x-slot>
+                                </x-card>
+
+                                <x-card title="title" class="" id="" bodyClass="border border-gray-300" bodyId="body-example">
+                                    <x-slot name="body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste est excepturi nihil vel. Error accusantium, provident est, quis minus aspernatur perspiciatis saepe excepturi, repellat mollitia voluptas unde expedita aperiam.</p>
+                                    </x-slot>
+                                </x-card>
+
                             </div>
                         </div>
                     </div>
