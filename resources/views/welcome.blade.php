@@ -18,9 +18,9 @@
 
 <body class="bg-sky-50 dark:bg-zinc-900 text-gray-900 dark:text-white">
 
-    <div class="fixed hidden md:block inset-x-5 inset-y-5 w-80" id="sidebar">
+    <div class="fixed hidden md:block inset-x-5 inset-y-5 w-80 backdrop-blur-md bg-gray-800/60 z-50" id="sidebar">
         <aside class="" aria-label="Sidebar">
-            <div class="overflow-y-auto py-5 px-3 bg-sky-400 rounded dark:bg-sky-800 h-[96vh] text-white shadow-md">
+            <div class="overflow-y-auto py-5 px-3 bg-sky-400 rounded-md dark:bg-sky-800 h-[96vh] text-white shadow-md">
                 <a href="https://flowbite.com/" class="flex items-center pl-2.5 mb-5">
                     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Laravel Admin</span>
                 </a>
@@ -505,7 +505,7 @@
                             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
                                 <x-card title="title" class="" id="">
                                     <x-slot name="img">
-                                        <img src="https://images.pexels.com/photos/7267852/pexels-photo-7267852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img__fit rounded-t-lg" alt="">
+                                        <img src="https://images.pexels.com/photos/7267852/pexels-photo-7267852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img__fit card__img" alt="">
                                     </x-slot>
                                     <x-slot name="head">
                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>

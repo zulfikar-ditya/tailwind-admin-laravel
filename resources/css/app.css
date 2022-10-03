@@ -186,7 +186,7 @@ label {
 }
 
 .card {
-    @apply bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700;
+    @apply bg-white rounded-md border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700;
 }
 
 .card__head {
@@ -202,7 +202,7 @@ label {
 }
 
 .card__img {
-    @apply w-full rounded-t-lg object-cover object-center;
+    @apply w-full rounded-t-md object-cover object-center;
 }
 
 .card__title {
