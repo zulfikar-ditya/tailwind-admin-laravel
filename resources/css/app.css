@@ -90,11 +90,11 @@ label {
 }
 
 .btn__success {
-    @apply font-medium rounded text-sm mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out text-white bg-amber-500 hover:bg-amber-600 focus:ring-amber-300 dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-700;
+    @apply font-medium rounded text-sm mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out text-white bg-teal-500 hover:bg-teal-600 focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-700;
 }
 
 .btn__warning {
-    @apply font-medium rounded text-sm mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out text-white bg-teal-500 hover:bg-teal-600 focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-700;
+    @apply font-medium rounded text-sm mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out text-white bg-amber-500 hover:bg-amber-600 focus:ring-amber-300 dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-700;
 }
 
 .btn__info {
@@ -122,11 +122,11 @@ label {
 }
 
 .btn__outline__success {
-    @apply focus:ring-4 focus:outline-none font-medium rounded text-sm  text-center mb-2 dark:hover:text-white scale-100 hover:scale-105 transition-all duration-200 ease-in-out text-amber-500 hover:text-white border border-amber-500 hover:bg-amber-500 focus:ring-amber-300 dark:border-amber-600 dark:text-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-700;
+    @apply focus:ring-4 focus:outline-none font-medium rounded text-sm  text-center mb-2 dark:hover:text-white scale-100 hover:scale-105 transition-all duration-200 ease-in-out text-teal-500 hover:text-white border border-teal-500 hover:bg-teal-500 focus:ring-teal-300 dark:border-teal-600 dark:text-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-700;
 }
 
 .btn__outline__warning {
-    @apply focus:ring-4 focus:outline-none font-medium rounded text-sm  text-center mb-2 dark:hover:text-white scale-100 hover:scale-105 transition-all duration-200 ease-in-out text-teal-500 hover:text-white border border-teal-500 hover:bg-teal-500 focus:ring-teal-300 dark:border-teal-600 dark:text-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-700;
+    @apply focus:ring-4 focus:outline-none font-medium rounded text-sm  text-center mb-2 dark:hover:text-white scale-100 hover:scale-105 transition-all duration-200 ease-in-out text-amber-500 hover:text-white border border-amber-500 hover:bg-amber-500 focus:ring-amber-300 dark:border-amber-600 dark:text-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-700;
 }
 
 .btn__outline__info {
@@ -154,11 +154,11 @@ label {
 }
 
 .btn__gradient__success {
-    @apply text-white bg-gradient-to-r hover:bg-gradient-to-br focus:ring-4 shadow-lg dark:shadow-lg font-medium rounded text-sm  text-center mr-2 mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out from-amber-500 via-amber-600 to-amber-700 focus:ring-amber-300 dark:focus:ring-amber-800 shadow-amber-500/50 dark:shadow-amber-800/80;
+    @apply text-white bg-gradient-to-r hover:bg-gradient-to-br focus:ring-4 shadow-lg dark:shadow-lg font-medium rounded text-sm  text-center mr-2 mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out from-teal-500 via-teal-600 to-teal-700 focus:ring-teal-300 dark:focus:ring-teal-800 shadow-teal-500/50 dark:shadow-teal-800/80;
 }
 
 .btn__gradient__warning {
-    @apply text-white bg-gradient-to-r hover:bg-gradient-to-br focus:ring-4 shadow-lg dark:shadow-lg font-medium rounded text-sm  text-center mr-2 mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out from-teal-500 via-teal-600 to-teal-700 focus:ring-teal-300 dark:focus:ring-teal-800 shadow-teal-500/50 dark:shadow-teal-800/80;
+    @apply text-white bg-gradient-to-r hover:bg-gradient-to-br focus:ring-4 shadow-lg dark:shadow-lg font-medium rounded text-sm  text-center mr-2 mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out from-amber-500 via-amber-600 to-amber-700 focus:ring-amber-300 dark:focus:ring-amber-800 shadow-amber-500/50 dark:shadow-amber-800/80;
 }
 
 .btn__gradient__info {
@@ -211,4 +211,68 @@ label {
 
 img.img__fit {
     @apply object-cover object-center w-full;
+}
+
+.modal {
+    @apply backdrop-blur-md bg-gray-900/60 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full;
+}
+
+.modal__head {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600;
+}
+
+.modal__head__primary {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-sky-500 dark:bg-sky-700 text-white;
+}
+
+.modal__head__primary button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
+}
+
+.modal__head__danger {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-rose-500 dark:bg-rose-700 text-white;
+}
+
+.modal__head__danger button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
+}
+
+.modal__head__success {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-teal-500 dark:bg-teal-700 text-white;
+}
+
+.modal__head__success button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
+}
+
+.modal__head__warning {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-amber-500 dark:bg-amber-700 text-white;
+}
+
+.modal__head__warning button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
+}
+
+.modal__head__info {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-indigo-500 dark:bg-indigo-700 text-white;
+}
+
+.modal__head__info button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
+}
+
+.modal__head__secondary {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-gray-500 dark:bg-gray-700 text-white;
+}
+
+.modal__head__secondary button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
+}
+
+.modal__head__dark {
+    @apply flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600 bg-gray-800 dark:bg-gray-900 text-white;
+}
+
+.modal__head__dark button {
+    @apply text-white hover:text-gray-800 dark:hover:bg-white;
 }

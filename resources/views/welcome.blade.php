@@ -155,6 +155,7 @@
                                                 <x-button label="Primary" color="primary" />
                                                 <x-button label="Primary" color="primary" size="lg" />
                                                 <x-button label="Primary" color="primary" rounded />
+                                                <x-button label="Primary" color="primary" block />
                                                 <x-button label="Primary" color="primary" icon="user" fontawesome />
                                                 <x-button label="Primary" color="primary" icon="user" fontawesome iconRight />
                                                 <x-button label="Primary" color="primary" icon="user" />
@@ -167,6 +168,7 @@
                                                 <x-button label="danger" color="danger" />
                                                 <x-button label="danger" color="danger" size="lg" />
                                                 <x-button label="danger" color="danger" rounded />
+                                                <x-button label="danger" color="danger" block />
                                                 <x-button label="danger" color="danger" icon="user" fontawesome />
                                                 <x-button label="danger" color="danger" icon="user" fontawesome iconRight />
                                                 <x-button label="danger" color="danger" icon="user" />
@@ -179,6 +181,7 @@
                                                 <x-button label="warning" color="warning" />
                                                 <x-button label="warning" color="warning" size="lg" />
                                                 <x-button label="warning" color="warning" rounded />
+                                                <x-button label="warning" color="warning" block />
                                                 <x-button label="warning" color="warning" icon="user" fontawesome />
                                                 <x-button label="warning" color="warning" icon="user" fontawesome iconRight />
                                                 <x-button label="warning" color="warning" icon="user" />
@@ -191,6 +194,7 @@
                                                 <x-button label="success" color="success" />
                                                 <x-button label="success" color="success" size="lg" />
                                                 <x-button label="success" color="success" rounded />
+                                                <x-button label="success" color="success" block />
                                                 <x-button label="success" color="success" icon="user" fontawesome />
                                                 <x-button label="success" color="success" icon="user" fontawesome iconRight />
                                                 <x-button label="success" color="success" icon="user" />
@@ -203,6 +207,7 @@
                                                 <x-button label="info" color="info" />
                                                 <x-button label="info" color="info" size="lg" />
                                                 <x-button label="info" color="info" rounded />
+                                                <x-button label="info" color="info" block />
                                                 <x-button label="info" color="info" icon="user" fontawesome />
                                                 <x-button label="info" color="info" icon="user" fontawesome iconRight />
                                                 <x-button label="info" color="info" icon="user" />
@@ -215,6 +220,7 @@
                                                 <x-button label="light" color="light" />
                                                 <x-button label="light" color="light" size="lg" />
                                                 <x-button label="light" color="light" rounded />
+                                                <x-button label="light" color="light" block />
                                             </div>
                                         </div>
                                         <div class="w-full">
@@ -223,6 +229,7 @@
                                                 <x-button label="secondary" color="secondary" />
                                                 <x-button label="secondary" color="secondary" size="lg" />
                                                 <x-button label="secondary" color="secondary" rounded />
+                                                <x-button label="secondary" color="secondary" block />
                                                 <x-button label="secondary" color="secondary" icon="user" fontawesome />
                                                 <x-button label="secondary" color="secondary" icon="user" fontawesome iconRight />
                                                 <x-button label="secondary" color="secondary" icon="user" />
@@ -235,6 +242,7 @@
                                                 <x-button label="dark" color="dark" />
                                                 <x-button label="dark" color="dark" size="lg" />
                                                 <x-button label="dark" color="dark" rounded />
+                                                <x-button label="dark" color="dark" block />
                                                 <x-button label="dark" color="dark" icon="user" fontawesome />
                                                 <x-button label="dark" color="dark" icon="user" fontawesome iconRight />
                                                 <x-button label="dark" color="dark" icon="user" />
@@ -251,6 +259,7 @@
                                                 <x-button label="primary" style="outline" color="primary" />
                                                 <x-button label="primary" style="outline" color="primary" size="lg" />
                                                 <x-button label="primary" style="outline" color="primary" rounded />
+                                                <x-button label="primary" style="outline" color="primary" block />
                                                 <x-button label="primary" color="primary" style="outline" icon="user" fontawesome />
                                                 <x-button label="primary" color="primary" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="primary" color="primary" style="outline" icon="user" />
@@ -263,6 +272,7 @@
                                                 <x-button label="danger" style="outline" color="danger" />
                                                 <x-button label="danger" style="outline" color="danger" size="lg" />
                                                 <x-button label="danger" style="outline" color="danger" rounded />
+                                                <x-button label="danger" style="outline" color="danger" block />
                                                 <x-button label="danger" color="danger" style="outline" icon="user" fontawesome />
                                                 <x-button label="danger" color="danger" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="danger" color="danger" style="outline" icon="user" />
@@ -275,6 +285,7 @@
                                                 <x-button label="warning" style="outline" color="warning" />
                                                 <x-button label="warning" style="outline" color="warning" size="lg" />
                                                 <x-button label="warning" style="outline" color="warning" rounded />
+                                                <x-button label="warning" style="outline" color="warning" block />
                                                 <x-button label="warning" color="warning" style="outline" icon="user" fontawesome />
                                                 <x-button label="warning" color="warning" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="warning" color="warning" style="outline" icon="user" />
@@ -287,6 +298,7 @@
                                                 <x-button label="success" style="outline" color="success" />
                                                 <x-button label="success" style="outline" color="success" size="lg" />
                                                 <x-button label="success" style="outline" color="success" rounded />
+                                                <x-button label="success" style="outline" color="success" block />
                                                 <x-button label="success" color="success" style="outline" icon="user" fontawesome />
                                                 <x-button label="success" color="success" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="success" color="success" style="outline" icon="user" />
@@ -299,6 +311,7 @@
                                                 <x-button label="info" style="outline" color="info" />
                                                 <x-button label="info" style="outline" color="info" size="lg" />
                                                 <x-button label="info" style="outline" color="info" rounded />
+                                                <x-button label="info" style="outline" color="info" block />
                                                 <x-button label="info" color="info" style="outline" icon="user" fontawesome />
                                                 <x-button label="info" color="info" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="info" color="info" style="outline" icon="user" />
@@ -311,6 +324,7 @@
                                                 <x-button label="light" style="outline" color="light" />
                                                 <x-button label="light" style="outline" color="light" size="lg" />
                                                 <x-button label="light" style="outline" color="light" rounded />
+                                                <x-button label="light" style="outline" color="light" block />
                                                 <x-button label="light" color="light" style="outline" icon="user" fontawesome />
                                                 <x-button label="light" color="light" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="light" color="light" style="outline" icon="user" />
@@ -323,6 +337,7 @@
                                                 <x-button label="secondary" style="outline" color="secondary" />
                                                 <x-button label="secondary" style="outline" color="secondary" size="lg" />
                                                 <x-button label="secondary" style="outline" color="secondary" rounded />
+                                                <x-button label="secondary" style="outline" color="secondary" block />
                                                 <x-button label="secondary" color="secondary" style="outline" icon="user" fontawesome />
                                                 <x-button label="secondary" color="secondary" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="secondary" color="secondary" style="outline" icon="user" />
@@ -335,6 +350,7 @@
                                                 <x-button label="dark" style="outline" color="dark" />
                                                 <x-button label="dark" style="outline" color="dark" size="lg" />
                                                 <x-button label="dark" style="outline" color="dark" rounded />
+                                                <x-button label="dark" style="outline" color="dark" block />
                                                 <x-button label="dark" color="dark" style="outline" icon="user" fontawesome />
                                                 <x-button label="dark" color="dark" style="outline" icon="user" fontawesome iconRight />
                                                 <x-button label="dark" color="dark" style="outline" icon="user" />
@@ -351,6 +367,7 @@
                                                 <x-button label="primary" style="gradient" color="primary" />
                                                 <x-button label="primary" style="gradient" color="primary" size="lg" />
                                                 <x-button label="primary" style="gradient" color="primary" rounded />
+                                                <x-button label="primary" style="gradient" color="primary" block />
                                                 <x-button label="primary" color="primary" style="gradient" icon="user" fontawesome />
                                                 <x-button label="primary" color="primary" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="primary" color="primary" style="gradient" icon="user" />
@@ -363,6 +380,7 @@
                                                 <x-button label="danger" style="gradient" color="danger" />
                                                 <x-button label="danger" style="gradient" color="danger" size="lg" />
                                                 <x-button label="danger" style="gradient" color="danger" rounded />
+                                                <x-button label="danger" style="gradient" color="danger" block />
                                                 <x-button label="danger" color="danger" style="gradient" icon="user" fontawesome />
                                                 <x-button label="danger" color="danger" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="danger" color="danger" style="gradient" icon="user" />
@@ -375,6 +393,7 @@
                                                 <x-button label="warning" style="gradient" color="warning" />
                                                 <x-button label="warning" style="gradient" color="warning" size="lg" />
                                                 <x-button label="warning" style="gradient" color="warning" rounded />
+                                                <x-button label="warning" style="gradient" color="warning" block />
                                                 <x-button label="warning" color="warning" style="gradient" icon="user" fontawesome />
                                                 <x-button label="warning" color="warning" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="warning" color="warning" style="gradient" icon="user" />
@@ -387,6 +406,7 @@
                                                 <x-button label="success" style="gradient" color="success" />
                                                 <x-button label="success" style="gradient" color="success" size="lg" />
                                                 <x-button label="success" style="gradient" color="success" rounded />
+                                                <x-button label="success" style="gradient" color="success" block />
                                                 <x-button label="success" color="success" style="gradient" icon="user" fontawesome />
                                                 <x-button label="success" color="success" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="success" color="success" style="gradient" icon="user" />
@@ -399,6 +419,7 @@
                                                 <x-button label="info" style="gradient" color="info" />
                                                 <x-button label="info" style="gradient" color="info" size="lg" />
                                                 <x-button label="info" style="gradient" color="info" rounded />
+                                                <x-button label="info" style="gradient" color="info" block />
                                                 <x-button label="info" color="info" style="gradient" icon="user" fontawesome />
                                                 <x-button label="info" color="info" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="info" color="info" style="gradient" icon="user" />
@@ -411,6 +432,7 @@
                                                 <x-button label="light" style="gradient" color="light" />
                                                 <x-button label="light" style="gradient" color="light" size="lg" />
                                                 <x-button label="light" style="gradient" color="light" rounded />
+                                                <x-button label="light" style="gradient" color="light" block />
                                                 <x-button label="light" color="light" style="gradient" icon="user" fontawesome />
                                                 <x-button label="light" color="light" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="light" color="light" style="gradient" icon="user" />
@@ -423,6 +445,7 @@
                                                 <x-button label="secondary" style="gradient" color="secondary" />
                                                 <x-button label="secondary" style="gradient" color="secondary" size="lg" />
                                                 <x-button label="secondary" style="gradient" color="secondary" rounded />
+                                                <x-button label="secondary" style="gradient" color="secondary" block />
                                                 <x-button label="secondary" color="secondary" style="gradient" icon="user" fontawesome />
                                                 <x-button label="secondary" color="secondary" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="secondary" color="secondary" style="gradient" icon="user" />
@@ -435,6 +458,7 @@
                                                 <x-button label="dark" style="gradient" color="dark" />
                                                 <x-button label="dark" style="gradient" color="dark" size="lg" />
                                                 <x-button label="dark" style="gradient" color="dark" rounded />
+                                                <x-button label="dark" style="gradient" color="dark" block />
                                                 <x-button label="dark" color="dark" style="gradient" icon="user" fontawesome />
                                                 <x-button label="dark" color="dark" style="gradient" icon="user" fontawesome iconRight />
                                                 <x-button label="dark" color="dark" style="gradient" icon="user" />
@@ -507,6 +531,390 @@
                                 </x-card>
 
                             </div>
+                        </div>
+
+                        <div class="mt-20">
+                            <h5 class="text-2xl">Modal</h5>
+
+                            <div class="">
+                                <div class="">
+                                    <h5 class="text-2xl">Modal top center</h5>
+                                    <x-button label="defaul" color="primary" size="sm" target="modal-test-1" />
+                                    <x-modal target="modal-test-1" title="test modal 1">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                        <x-slot name="footer">
+                                            <h1>Modal Footer</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="primary" color="primary" size="sm" target="modal-test-2" />
+                                    <x-modal target="modal-test-2" title="test modal 2" headColor="primary">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="danger" color="danger" size="sm" target="modal-test-3" />
+                                    <x-modal target="modal-test-3" title="test modal 3" headColor="danger">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="success" color="success" size="sm" target="modal-test-4" />
+                                    <x-modal target="modal-test-4" title="test modal 4" headColor="success">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="warning" color="warning" size="sm" target="modal-test-5" />
+                                    <x-modal target="modal-test-5" title="test modal 5" headColor="warning">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="info" color="info" size="sm" target="modal-test-6" />
+                                    <x-modal target="modal-test-6" title="test modal 6" headColor="info">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="secondary" color="secondary" size="sm" target="modal-test-7" />
+                                    <x-modal target="modal-test-7" title="test modal 7" headColor="secondary">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="dark" color="dark" size="sm" target="modal-test-8" />
+                                    <x-modal target="modal-test-8" title="test modal 8" headColor="dark">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-2xl">Modal top right</h5>
+                                    <x-button label="defaul" color="primary" size="sm" target="modal-top-right-1" />
+                                    <x-modal target="modal-top-right-1" title="test modal 1" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                        <x-slot name="footer">
+                                            <h1>Modal Footer</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="primary" color="primary" size="sm" target="modal-top-right-2" />
+                                    <x-modal target="modal-top-right-2" title="test modal 2" headColor="primary" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="danger" color="danger" size="sm" target="modal-top-right-3" />
+                                    <x-modal target="modal-top-right-3" title="test modal 3" headColor="danger" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="success" color="success" size="sm" target="modal-top-right-4" />
+                                    <x-modal target="modal-top-right-4" title="test modal 4" headColor="success" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="warning" color="warning" size="sm" target="modal-top-right-5" />
+                                    <x-modal target="modal-top-right-5" title="test modal 5" headColor="warning" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="info" color="info" size="sm" target="modal-top-right-6" />
+                                    <x-modal target="modal-top-right-6" title="test modal 6" headColor="info" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="secondary" color="secondary" size="sm" target="modal-top-right-7" />
+                                    <x-modal target="modal-top-right-7" title="test modal 7" headColor="secondary" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="dark" color="dark" size="sm" target="modal-top-right-8" />
+                                    <x-modal target="modal-top-right-8" title="test modal 8" headColor="dark" placement="top-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-2xl">Modal top left</h5>
+                                    <x-button label="defaul" color="primary" size="sm" target="modal-top-left-1" />
+                                    <x-modal target="modal-top-left-1" title="test modal 1" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                        <x-slot name="footer">
+                                            <h1>Modal Footer</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="primary" color="primary" size="sm" target="modal-top-left-2" />
+                                    <x-modal target="modal-top-left-2" title="test modal 2" headColor="primary" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="danger" color="danger" size="sm" target="modal-top-left-3" />
+                                    <x-modal target="modal-top-left-3" title="test modal 3" headColor="danger" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="success" color="success" size="sm" target="modal-top-left-4" />
+                                    <x-modal target="modal-top-left-4" title="test modal 4" headColor="success" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="warning" color="warning" size="sm" target="modal-top-left-5" />
+                                    <x-modal target="modal-top-left-5" title="test modal 5" headColor="warning" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="info" color="info" size="sm" target="modal-top-left-6" />
+                                    <x-modal target="modal-top-left-6" title="test modal 6" headColor="info" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="secondary" color="secondary" size="sm" target="modal-top-left-7" />
+                                    <x-modal target="modal-top-left-7" title="test modal 7" headColor="secondary" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="dark" color="dark" size="sm" target="modal-top-left-8" />
+                                    <x-modal target="modal-top-left-8" title="test modal 8" headColor="dark" placement="top-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <div class="">
+                                    <h5 class="text-2xl">Modal center center</h5>
+                                    <x-button label="defaul" color="primary" size="sm" target="modal-buttom-center-1" />
+                                    <x-modal target="modal-buttom-center-1" title="test modal 1" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                        <x-slot name="footer">
+                                            <h1>Modal Footer</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="primary" color="primary" size="sm" target="modal-center-center-2" />
+                                    <x-modal target="modal-center-center-2" title="test modal 2" headColor="primary" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="danger" color="danger" size="sm" target="modal-center-center-3" />
+                                    <x-modal target="modal-center-center-3" title="test modal 3" headColor="danger" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="success" color="success" size="sm" target="modal-center-center-4" />
+                                    <x-modal target="modal-center-center-4" title="test modal 4" headColor="success" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="warning" color="warning" size="sm" target="modal-center-center-5" />
+                                    <x-modal target="modal-center-center-5" title="test modal 5" headColor="warning" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="info" color="info" size="sm" target="modal-center-center-6" />
+                                    <x-modal target="modal-center-center-6" title="test modal 6" headColor="info" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="secondary" color="secondary" size="sm" target="modal-center-center-7" />
+                                    <x-modal target="modal-center-center-7" title="test modal 7" headColor="secondary" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="dark" color="dark" size="sm" target="modal-center-center-8" />
+                                    <x-modal target="modal-center-center-8" title="test modal 8" headColor="dark" placement="center-center">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-2xl">Modal center right</h5>
+                                    <x-button label="defaul" color="primary" size="sm" target="modal-center-right-1" />
+                                    <x-modal target="modal-center-right-1" title="test modal 1" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                        <x-slot name="footer">
+                                            <h1>Modal Footer</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="primary" color="primary" size="sm" target="modal-center-right-2" />
+                                    <x-modal target="modal-center-right-2" title="test modal 2" headColor="primary" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="danger" color="danger" size="sm" target="modal-center-right-3" />
+                                    <x-modal target="modal-center-right-3" title="test modal 3" headColor="danger" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="success" color="success" size="sm" target="modal-center-right-4" />
+                                    <x-modal target="modal-center-right-4" title="test modal 4" headColor="success" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="warning" color="warning" size="sm" target="modal-center-right-5" />
+                                    <x-modal target="modal-center-right-5" title="test modal 5" headColor="warning" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="info" color="info" size="sm" target="modal-center-right-6" />
+                                    <x-modal target="modal-center-right-6" title="test modal 6" headColor="info" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="secondary" color="secondary" size="sm" target="modal-center-right-7" />
+                                    <x-modal target="modal-center-right-7" title="test modal 7" headColor="secondary" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="dark" color="dark" size="sm" target="modal-center-right-8" />
+                                    <x-modal target="modal-center-right-8" title="test modal 8" headColor="dark" placement="center-right">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+                                </div>
+                                <div class="">
+                                    <h5 class="text-2xl">Modal center left</h5>
+                                    <x-button label="defaul" color="primary" size="sm" target="modal-center-left-1" />
+                                    <x-modal target="modal-center-left-1" title="test modal 1" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                        <x-slot name="footer">
+                                            <h1>Modal Footer</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="primary" color="primary" size="sm" target="modal-center-left-2" />
+                                    <x-modal target="modal-center-left-2" title="test modal 2" headColor="primary" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="danger" color="danger" size="sm" target="modal-center-left-3" />
+                                    <x-modal target="modal-center-left-3" title="test modal 3" headColor="danger" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="success" color="success" size="sm" target="modal-center-left-4" />
+                                    <x-modal target="modal-center-left-4" title="test modal 4" headColor="success" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="warning" color="warning" size="sm" target="modal-center-left-5" />
+                                    <x-modal target="modal-center-left-5" title="test modal 5" headColor="warning" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="info" color="info" size="sm" target="modal-center-left-6" />
+                                    <x-modal target="modal-center-left-6" title="test modal 6" headColor="info" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="secondary" color="secondary" size="sm" target="modal-center-left-7" />
+                                    <x-modal target="modal-center-left-7" title="test modal 7" headColor="secondary" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+
+                                    <x-button label="dark" color="dark" size="sm" target="modal-center-left-8" />
+                                    <x-modal target="modal-center-left-8" title="test modal 8" headColor="dark" placement="center-left">
+                                        <x-slot name="body">
+                                            <h1>Modal Body</h1>
+                                        </x-slot>
+                                    </x-modal>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mt-20">
+                            <h5 class="text-2xl">Modal delete</h5>
+
+                            <x-button label="delete" color="danger" size="sm" target="modal-delete" />
+                            <x-modal-delete target="modal-delete" link="" />
                         </div>
                     </div>
                 </div>

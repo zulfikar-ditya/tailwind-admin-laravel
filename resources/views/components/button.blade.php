@@ -54,7 +54,7 @@ if ($icon && $icon != '') {
 @endphp
 <{{ $tag }} @if ($link && $link != '') href="{{ $link }}"
     @else
-        type="{{ $type }}" @endif class="{{ join(' ', $className) }}" @if ($id) id="{{ $id }}" @endif @if ($disabled) disabled @endif @isset($onclick) onclick="{{ $onclick }}" @endisset>
+        type="{{ $type }}" @endif class="{{ join(' ', $className) }}" @if ($id) id="{{ $id }}" @endif @if ($disabled) disabled @endif @isset($onclick) onclick="{{ $onclick }}" @endisset @if ($target) data-modal-toggle="{{ $target }}" @endif>
 
     @if ($icon && $icon != '' && $iconRight == '')
         @if ($fontawesome)

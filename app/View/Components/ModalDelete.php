@@ -4,35 +4,28 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Modal extends Component
+class ModalDelete extends Component
 {
     public $target = '';
 
     public $title = '';
 
-    public $body = '';
+    public $description = '';
 
-    public $footer = '';
-
-    public $width = '';
-
-    public $headColor = '';
+    public $link = '';
 
     public $placement = '';
-
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($target = '', $title = '', $body = '', $footer = '', $width = '2xl', $headColor = '', $placement = 'top-center')
+    public function __construct($target = '', $title = 'Are you sure to delete this data?', $description = 'This action can\'t be un done!!!!', $link = '', $placement = '')
     {
         $this->target = $target;
         $this->title = $title;
-        $this->body = $body;
-        $this->footer = $footer;
-        $this->width = $width;
-        $this->headColor = $headColor;
+        $this->description = $description;
+        $this->link = $link;
         $this->placement = $placement;
     }
 
@@ -43,6 +36,6 @@ class Modal extends Component
      */
     public function render()
     {
-        return view('components.modal');
+        return view('components.modal-delete');
     }
 }

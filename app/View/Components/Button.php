@@ -58,6 +58,8 @@ class Button extends Component
 
     public $iconRight;
 
+    public $target = '';
+
     public function __construct(
         $class = '',
         $link = '',
@@ -85,6 +87,7 @@ class Button extends Component
         $onclick = '',
         $gradient = '',
         $iconRight = '',
+        $target = ''
     ) {
         $this->class = $class;
         $this->link = $link;
@@ -112,6 +115,7 @@ class Button extends Component
         $this->id = $id;
         $this->gradient = $gradient;
         $this->iconRight = $iconRight;
+        $this->target = $target;
     }
 
     /**
