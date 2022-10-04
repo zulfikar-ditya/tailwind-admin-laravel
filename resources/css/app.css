@@ -276,3 +276,66 @@ img.img__fit {
 .modal__head__dark button {
     @apply text-white hover:text-gray-800 dark:hover:bg-white;
 }
+
+.table__responsive {
+    @apply overflow-x-auto relative shadow-md rounded-md;
+}
+
+table,
+.table {
+    @apply w-full text-sm text-left text-gray-500 dark:text-gray-400;
+}
+
+thead {
+    @apply text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400;
+}
+
+thead.thead__primary {
+    @apply text-white dark:text-white uppercase bg-sky-500 dark:bg-sky-700;
+}
+
+thead.thead__danger {
+    @apply text-white dark:text-white uppercase bg-rose-500 dark:bg-rose-700;
+}
+
+thead.thead__success {
+    @apply text-white dark:text-white uppercase bg-teal-500 dark:bg-teal-700;
+}
+
+thead.thead__warning {
+    @apply text-white dark:text-white uppercase bg-amber-500 dark:bg-amber-700;
+}
+
+thead.thead__info {
+    @apply text-white dark:text-white uppercase bg-indigo-500 dark:bg-indigo-700;
+}
+
+thead.thead__secondary {
+    @apply text-white uppercase bg-gray-500 dark:bg-gray-700;
+}
+
+thead.thead__dark {
+    @apply text-white uppercase bg-gray-800 dark:bg-gray-900;
+}
+
+th,
+tr,
+td {
+    @apply py-3 px-6 text-left whitespace-nowrap text-ellipsis;
+}
+
+th {
+    @apply font-bold;
+}
+
+tbody tr {
+    @apply border-b border-gray-200 dark:border-gray-600 bg-white even:bg-gray-100 even:dark:bg-gray-800 even:dark:border-gray-700 dark:bg-gray-900;
+}
+
+tfoot {
+    @apply text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400;
+}
+
+.table__caption {
+    @apply p-5 text-left text-gray-700 bg-white dark:text-white dark:bg-gray-800;
+}

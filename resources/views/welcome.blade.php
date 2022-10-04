@@ -916,6 +916,181 @@
                             <x-button label="delete" color="danger" size="sm" target="modal-delete" />
                             <x-modal-delete target="modal-delete" link="" />
                         </div>
+
+                        <div class="mt-20">
+
+                            <div class="mt-10">
+                                <x-table>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+                            <div class="mt-10">
+                                <x-table color='default'>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+                            <div class="mt-10">
+                                <x-table color='danger'>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+                            <div class="mt-10">
+                                <x-table color='info'>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+                            <div class="mt-10">
+                                <x-table color='success'>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+                            <div class="mt-10">
+                                <x-table color='dark'>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+
+                            <div class="mt-10">
+                                <x-table color='warning'>
+                                    <x-slot name="head">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th></th>
+                                    </x-slot>
+                                    <x-slot name="body">
+                                        @php
+                                            $faker = \Faker\Factory::create('id_ID');
+                                        @endphp
+                                        @for ($i = 1; $i <= 10; $i++)
+                                            <tr>
+                                                <td>{{ $i }}</td>
+                                                <td>{{ $faker->name }}</td>
+                                                <td>
+                                                    <x-button color="danger" size="sm" icon="trash" target="modal-delete-{{ $i }}" />
+                                                    <x-modal-delete target="modal-delete-{{ $i }}" link="" />
+                                                </td>
+                                            </tr>
+                                        @endfor
+                                    </x-slot>
+                                </x-table>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -6,14 +6,31 @@ use Illuminate\View\Component;
 
 class Table extends Component
 {
+    public $color = '';
+
+    public $caption = '';
+
+    public $head = '';
+
+    public $body = '';
+
+    public $footer = '';
+
+    public $id = '';
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($color = 'primary', $caption = '', $head = '', $body = '', $footer = '', $id = '')
     {
-        //
+        $this->color = $color;
+        $this->caption = $caption;
+        $this->head = $head;
+        $this->body = $body;
+        $this->footer = $footer;
+        $this->id = $id;
     }
 
     /**
