@@ -145,6 +145,29 @@
                         </div>
 
                         <div class="mt-10">
+                            <h5 class="text-2">checkbox</h5>
+
+                            <div class="grid col-sm-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                                <div class="">
+                                    <p>checkbox</p>
+                                    <x-input-checkbox name="checkbox-1" label="checkbox" id="checkbox-1" />
+                                </div>
+                                <div class="">
+                                    <p>checkbox cheked required</p>
+                                    <x-input-checkbox name="checkbox-2" label="checkbox cheked required" id="checkbox-2" checked required />
+                                </div>
+                                <div class="">
+                                    <p>checkbox disabled</p>
+                                    <x-input-checkbox name="checkbox-3" label="checkbox disabled" id="checkbox-3" disabled />
+                                </div>
+                                <div class="">
+                                    <p>checkbox js state</p>
+                                    <x-input-checkbox name="checkbox-5" label="checkbox js state" id="checkbox-5" onclick="" onblur="" onchange="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
                             <h5 class="text-2xl">Button</h5>
                             <div class="flex flex-wrap">
                                 <div class="w-full md:w-4/12">

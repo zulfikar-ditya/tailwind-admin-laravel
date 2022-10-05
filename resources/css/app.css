@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.row {
+    @apply flex flex-wrap gap-4;
+}
+
 .text__primary {
     @apply text-sky-500;
 }
@@ -77,8 +81,28 @@
     @apply bg-gray-900;
 }
 
-label {
-    @apply absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6;
+.form__cols {
+    @apply grid grid-cols-1 gap-6 md:grid-cols-3 lg:col-span-4;
+}
+
+.form__group {
+    @apply mb-4;
+}
+
+.form__group__checkbox {
+    @apply flex items-center;
+}
+
+label.checkbox__label {
+    @apply ml-2 font-medium text-gray-900 dark:text-gray-300;
+}
+
+.disabled {
+    @apply cursor-not-allowed;
+}
+
+.form__checkbox {
+    @apply w-4 h-4 text-sky-600 bg-gray-100 rounded border-gray-300 focus:ring-sky-500 dark:focus:ring-sky-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
 }
 
 .btn__primary {

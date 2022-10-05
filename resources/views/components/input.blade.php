@@ -12,7 +12,7 @@ if ($disabled) {
 }
 @endphp
 
-<div class="relative z-0">
+<div class="form__group relative z-0">
     <input type="{{ $type }}" id="{{ $id != '' ? $id : $name }}" name="{{ $name }}" class="{{ join(' ', $className) }}" placeholder=" " value="{{ old($name) ?? $value }}" @if ($autocomplete) autocomplete="{{ $autocomplete }}" @endif @if ($required) required @endif @if ($autofocus) autofocus @endif @if ($disabled) disabled @endif @if ($onclick) onclick="{{ $onclick }}" @endif @if ($onchange) onchange="{{ $onchange }}" @endif @if ($onkeyup) onkeyup="{{ $onkeyup }}" @endif @if ($readonly) readonly @endif @if ($onblur) onblur="{{ $onblur }}" @endif />
     <label for="{{ $name }}" class="{{ $labelClass }}">{{ Str::headline($label != '' ? $label : $name) }}</label>
 </div>
