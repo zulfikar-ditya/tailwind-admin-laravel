@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, h2, h3, h4, h5, h6 {
+body {
+    @apply bg-sky-50 dark:bg-zinc-900 text-gray-900 dark:text-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     @apply font-bold first-letter:uppercase tracking-wide;
 }
 
@@ -33,7 +42,6 @@ h6 {
 p {
     @apply text-base;
 }
-
 
 .row {
     @apply flex flex-wrap gap-4;
@@ -291,7 +299,7 @@ img.img__fit {
 }
 
 .modal {
-    @apply backdrop-blur-md bg-gray-900/60 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full;
+    @apply backdrop-blur-md bg-gray-900/60 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full transition-transform duration-300 ease-in;
 }
 
 .modal__head {
