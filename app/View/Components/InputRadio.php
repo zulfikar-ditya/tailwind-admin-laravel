@@ -26,12 +26,14 @@ class InputRadio extends Component
 
     public $onblur;
 
+    public $helpers;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $onclick = '', $onchange = '', $onblur = '')
+    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $onclick = '', $onchange = '', $onblur = '', $helpers = '')
     {
         $this->id = $id;
         $this->name = $name;
@@ -43,6 +45,7 @@ class InputRadio extends Component
         $this->onclick = $onclick;
         $this->onchange = $onchange;
         $this->onblur = $onblur;
+        $this->helpers = $helpers;
     }
 
     /**

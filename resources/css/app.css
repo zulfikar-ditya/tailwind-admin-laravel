@@ -97,6 +97,22 @@ label.checkbox__label {
     @apply ml-2 font-medium text-gray-900 dark:text-gray-300;
 }
 
+select.select_default {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-500 focus:border-sky-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-sky-500 dark:focus:border-sky-500;
+}
+
+select.select__failed {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-rose-500 focus:border-rose-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-rose-500 dark:focus:border-rose-500;
+}
+
+label.label__default {
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400;
+}
+
+label.label__failed {
+    @apply block mb-2 text-sm font-medium text-rose-500 dark:text-rose-600;
+}
+
 .disabled {
     @apply cursor-not-allowed;
 }
