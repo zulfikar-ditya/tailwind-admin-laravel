@@ -105,6 +105,10 @@ label.checkbox__label {
     @apply w-4 h-4 text-sky-600 bg-gray-100 rounded border-gray-300 focus:ring-sky-500 dark:focus:ring-sky-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
 }
 
+.form__radio {
+    @apply w-4 h-4 text-sky-600 bg-gray-100 border-gray-300 focus:ring-sky-500 dark:focus:ring-sky-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
+}
+
 .btn__primary {
     @apply font-medium rounded text-sm mb-2 scale-100 hover:scale-105 focus:outline-none transition-all duration-200 ease-in-out text-white bg-sky-500 hover:bg-sky-600 focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-sky-700 dark:focus:ring-sky-700;
 }

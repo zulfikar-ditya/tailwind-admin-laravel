@@ -18,7 +18,7 @@
 
 <body class="bg-sky-50 dark:bg-zinc-900 text-gray-900 dark:text-white">
 
-    <div class="fixed hidden md:block inset-x-5 inset-y-5 w-80 backdrop-blur-md bg-gray-800/60 z-50" id="sidebar">
+    <div class="fixed hidden md:block inset-x-5 inset-y-5 md:w-80 backdrop-blur-md bg-gray-800/60 z-50" id="sidebar">
         <aside class="" aria-label="Sidebar">
             <div class="overflow-y-auto py-5 px-3 bg-sky-400 rounded-md dark:bg-sky-800 h-[96vh] text-white shadow-md">
                 <a href="https://flowbite.com/" class="flex items-center pl-2.5 mb-5">
@@ -163,6 +163,29 @@
                                 <div class="">
                                     <p>checkbox js state</p>
                                     <x-input-checkbox name="checkbox-5" label="checkbox js state" id="checkbox-5" onclick="" onblur="" onchange="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
+                            <h5 class="text-2">radio</h5>
+
+                            <div class="grid col-sm-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                                <div class="">
+                                    <p>radio</p>
+                                    <x-input-radio name="radio-1" label="radio" id="radio-1" />
+                                </div>
+                                <div class="">
+                                    <p>radio cheked required</p>
+                                    <x-input-radio name="radio-1" label="radio cheked required" id="radio-2" checked required />
+                                </div>
+                                <div class="">
+                                    <p>radio disabled</p>
+                                    <x-input-radio name="radio-1" label="radio disabled" id="radio-3" disabled />
+                                </div>
+                                <div class="">
+                                    <p>radio js state</p>
+                                    <x-input-radio name="radio-1" label="radio js state" id="radio-5" onclick="" onblur="" onchange="" />
                                 </div>
                             </div>
                         </div>
