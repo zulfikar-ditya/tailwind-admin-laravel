@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold first-letter:uppercase tracking-wide;
+}
+
+h1 {
+    @apply text-4xl;
+}
+
+h2 {
+    @apply text-3xl;
+}
+
+h3 {
+    @apply text-2xl;
+}
+
+h4 {
+    @apply text-xl;
+}
+
+h5 {
+    @apply text-lg;
+}
+
+h6 {
+    @apply text-base;
+}
+
+p {
+    @apply text-base;
+}
+
+
 .row {
     @apply flex flex-wrap gap-4;
 }
@@ -86,7 +119,7 @@
 }
 
 .form__group {
-    @apply mb-4;
+    @apply my-4;
 }
 
 .form__group__checkbox {
