@@ -7,11 +7,6 @@ use Illuminate\Http\Request;
 
 class TestComponentController extends Controller
 {
-    public function index()
-    {
-        return view('test.component.test-component');
-    }
-
     public function input()
     {
         return view('test.component.input');
@@ -30,6 +25,16 @@ class TestComponentController extends Controller
     public function modal()
     {
         return view('test.component.modal');
+    }
+
+    public function card()
+    {
+        return view('test.component.test_toast');
+    }
+
+    public function breadcumb()
+    {
+        return view('test.component.breadcumb');
     }
 
     public function test_toast()

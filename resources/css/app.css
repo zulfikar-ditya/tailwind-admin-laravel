@@ -424,3 +424,15 @@ tfoot {
 .table__caption {
     @apply p-5 text-left text-gray-700 bg-white dark:text-white dark:bg-gray-800;
 }
+
+.nav__link {
+    @apply flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-sky-50 hover:text-sky-400 dark:hover:text-gray-500;
+}
+
+.nav__link.active {
+    /*  */
+}
+
+.nav__dropdown {
+    @apply flex items-center p-2 w-full text-base font-normal text-white rounded-lg transition duration-75 dark:text-white hover:bg-sky-50 hover:text-sky-400 dark:hover:text-gray-500;
+}
