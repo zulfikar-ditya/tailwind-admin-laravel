@@ -10,6 +10,9 @@ if ($errors->has($name)) {
 if ($disabled) {
     array_push($className, 'cursor-not-allowed');
 }
+
+array_push($className, $class);
+
 @endphp
 
 <div class="form__group relative z-0">

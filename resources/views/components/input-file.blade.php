@@ -15,18 +15,17 @@ if ($disabled) {
 <div class="mb-8">
     <label for="{{ $name }}" class="{{ $labelClass }}">{{ Str::headline($label != '' ? $label : $name) }}</label>
     <input type="file" id="{{ $id != '' ? $id : $name }}" name="{{ $name }}" class="{{ join(' ', $className) }}" placeholder=" " value="{{ old($name) ?? $value }}" @if ($autocomplete) autocomplete="{{ $autocomplete }}" @endif @if ($required) required @endif @if ($multiple) multiple @endif @if ($autofocus) autofocus @endif @if ($disabled) disabled @endif @if ($onclick) onclick="{{ $onclick }}" @endif @if ($onchange) onchange="{{ $onchange }}" @endif @if ($onkeyup) onkeyup="{{ $onkeyup }}" @endif @if ($readonly) readonly @endif @if ($onblur) onblur="{{ $onblur }}" @endif />
+    @error($name)
+        <p id="error-{{ $name }}" class="mt-2 text-xs text-rose-600 dark:text-rose-400">
+            @error($name)
+                {{ $message }}
+            @enderror
+        </p>
+    @enderror
+
+    @if ($helpers)
+        <p id="error-{{ $name }}" class="mt-2 text-xs text-sky-600 dark:text-sky-400">
+            {{ Str::headline($helpers) }}
+        </p>
+    @endif
 </div>
-
-@error($name)
-    <p id="error-{{ $name }}" class="mt-2 text-xs text-rose-600 dark:text-rose-400">
-        @error($name)
-            {{ $message }}
-        @enderror
-    </p>
-@enderror
-
-@if ($helpers)
-    <p id="error-{{ $name }}" class="mt-2 text-xs text-sky-600 dark:text-sky-400">
-        {{ Str::headline($helpers) }}
-    </p>
-@endif

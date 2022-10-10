@@ -87,6 +87,38 @@
                 </div>
             </div>
 
+            <div class="form__cols mt-10">
+                <div class="">
+                    <x-input type="password" name="password" />
+                </div>
+                <div class="">
+                    <x-input type="date" name="date" />
+                </div>
+                <div class="">
+                    <x-input type="email" name="email" />
+                </div>
+                <div class="">
+                    <x-input type="number" name="number" />
+                </div>
+                <div class="">
+                    <x-input type="tel" name="tel" />
+                </div>
+                <div class="">
+                    <x-input type="url" name="url" />
+                </div>
+                <div class="">
+                    <x-input type="week" name="week" />
+                </div>
+                <div class="">
+                    <x-input type="time" name="time" />
+                </div>
+                <div class="">
+                    <x-input type="datetime-local" name="datetime-local" />
+                </div>
+                <div class="">
+                    <x-input type="month" name="month" />
+                </div>
+            </div>
         </x-slot>
     </x-card>
     <x-card title="checkbox & radio & toggle" class="mt-5">

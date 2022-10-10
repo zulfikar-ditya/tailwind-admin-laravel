@@ -43,6 +43,14 @@ p {
     @apply text-base;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(0);
+}
+
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
 .row {
     @apply flex flex-wrap gap-4;
 }

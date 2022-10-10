@@ -2,6 +2,8 @@ import "./bootstrap";
 
 import Alpine from "alpinejs";
 
+import datepicker from "flowbite";
+
 window.Alpine = Alpine;
 
 Alpine.start();
