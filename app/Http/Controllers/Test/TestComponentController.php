@@ -29,7 +29,7 @@ class TestComponentController extends Controller
 
     public function card()
     {
-        return view('test.component.test_toast');
+        return view('test.component.card');
     }
 
     public function breadcumb()
@@ -39,11 +39,16 @@ class TestComponentController extends Controller
 
     public function test_toast()
     {
-        return to_route('test.component.index');
+        return to_route('dashboard')->with($this->ResponseMessageCRUD());
     }
 
-    public function test_validate()
+    public function test_validate(Request $request)
     {
-        return to_route('test.component.index');
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|min:6',
+        ]);
+        return to_route('dashboard');
     }
 }

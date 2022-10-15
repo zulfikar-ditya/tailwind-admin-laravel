@@ -42,7 +42,7 @@ if ($link && $link != '') {
 }
 
 if ($rounded) {
-    array_push($className, 'btn__rouded');
+    array_push($className, 'btn__rounded');
 }
 
 if ($icon && $icon != '') {

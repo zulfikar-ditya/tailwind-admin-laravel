@@ -9,6 +9,7 @@
 @endsection
 
 @section('content')
+    @include('components.validate-error')
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <x-card class="hover:scale-105 transition-all duration-300 hover:shadow-xl hover:-translate-y-2" bodyClass="border-none">
             <x-slot name="body">

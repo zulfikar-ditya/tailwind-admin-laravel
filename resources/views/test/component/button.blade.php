@@ -4,8 +4,7 @@
 
 @section('breadcumb')
     <x-breadcumb>
-        <x-breadcumb-link :link="route('dashboard')">Dashboard</x-breadcumb-link>
-        <x-breadcumb-link :link="route('test-component.button')">Button</x-breadcumb-link>
+        <x-breadcumb-link :link="route('test-component.button')" active>Button</x-breadcumb-link>
     </x-breadcumb>
 @endsection
 
