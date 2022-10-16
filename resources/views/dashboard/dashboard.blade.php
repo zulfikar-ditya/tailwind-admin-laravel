@@ -4,7 +4,6 @@
 
 @section('breadcumb')
     <x-breadcumb>
-        <x-breadcumb-link :link="route('dashboard')">Dashboard</x-breadcumb-link>
     </x-breadcumb>
 @endsection
 

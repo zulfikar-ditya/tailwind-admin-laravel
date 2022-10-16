@@ -1,5 +1,5 @@
 <div id="{{ $target }}" tabindex="-1" aria-hidden="true" class="modal hidden">
-    <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+    <div class="relative flex p-4 w-full max-w-md h-screen md:h-auto items-center">
         <div class="relative bg-white rounded shadow dark:bg-gray-700">
             <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white" data-modal-toggle="{{ $target }}">
                 <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

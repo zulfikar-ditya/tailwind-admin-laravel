@@ -12,9 +12,10 @@ window.axios = axios;
 
 window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
-import "flowbite";
+// import "flowbite";
 import "./darkmode";
 import "./darkmde-toggle";
+import "./sidebar";
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

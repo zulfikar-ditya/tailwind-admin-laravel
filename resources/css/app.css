@@ -307,7 +307,7 @@ img.img__fit {
 }
 
 .modal {
-    @apply backdrop-blur-md bg-gray-900/60 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full transition-transform duration-300 ease-in;
+    @apply backdrop-blur-md bg-gray-900/60  overflow-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 md:h-full h-screen transition-transform duration-300 ease-in;
 }
 
 .modal__head {
