@@ -18,7 +18,6 @@
 </head>
 
 <body class="">
-    <div class="fixed w-full bg-sky-900 min-h-75 left-0 right-0 top-[40rem] bottom-0 z-[-1000]"></div>
     @include('layouts.sidebar')
 
     <div class="flex p-5">

@@ -14,11 +14,15 @@ class InputToggle extends Component
 
     public $value;
 
+    public $class;
+
+    public $toggleClass;
+
+    public $color;
+
     public $required;
 
     public $disabled;
-
-    public $color;
 
     public $checked;
 
@@ -35,7 +39,7 @@ class InputToggle extends Component
      *
      * @return void
      */
-    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $color = 'primary', $onclick = '', $onchange = '', $onblur = '', $helpers = '')
+    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $color = 'primary', $onclick = '', $onchange = '', $onblur = '', $helpers = '', $class = '', $toggleClass = '')
     {
         $this->id = $id;
         $this->name = $name;
@@ -49,6 +53,8 @@ class InputToggle extends Component
         $this->onchange = $onchange;
         $this->onblur = $onblur;
         $this->helpers = $helpers;
+        $this->class = $class;
+        $this->toggleClass = $toggleClass;
     }
 
     /**

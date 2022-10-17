@@ -14,6 +14,10 @@ class InputRadio extends Component
 
     public $value;
 
+    public $class;
+
+    public $color;
+
     public $required;
 
     public $disabled;
@@ -33,7 +37,7 @@ class InputRadio extends Component
      *
      * @return void
      */
-    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $onclick = '', $onchange = '', $onblur = '', $helpers = '')
+    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $onclick = '', $onchange = '', $onblur = '', $helpers = '', $class = '', $color = 'primary')
     {
         $this->id = $id;
         $this->name = $name;
@@ -46,6 +50,8 @@ class InputRadio extends Component
         $this->onchange = $onchange;
         $this->onblur = $onblur;
         $this->helpers = $helpers;
+        $this->class = $class;
+        $this->color = $color;
     }
 
     /**

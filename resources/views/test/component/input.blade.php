@@ -135,6 +135,16 @@
                 <div class="">
                     <x-input-checkbox name="checkbox-5" label="checkbox js state" id="checkbox-5" onclick="" onblur="" onchange="" />
                 </div>
+                <div class="">
+                    <x-input-checkbox name="checkbox-6" class="" label="class" id="checkbox-6" />
+                </div>
+            </div>
+            <div class="form__cols mt-10">
+                @foreach (['primary', 'warning', 'danger', 'success', 'info', 'light', 'dark'] as $item)
+                    <div class="">
+                        <x-input-checkbox name="checkbox-{{ $item }}" label="{{ $item }}" id="checkbox-{{ $item }}" color="{{ $item }}" checked />
+                    </div>
+                @endforeach
             </div>
             <div class="form__cols mt-10">
                 <div class="">
@@ -149,20 +159,41 @@
                 <div class="">
                     <x-input-radio name="radio-1" label="radio js state" id="radio-5" onclick="" onblur="" onchange="" />
                 </div>
+                <div class="">
+                    <x-input-radio name="radio-1" label="class" id="radio-6" class="" />
+                </div>
+            </div>
+            <div class="form__cols mt-10">
+                @foreach (['primary', 'warning', 'danger', 'success', 'info', 'light', 'dark'] as $item)
+                    <div class="">
+                        <x-input-radio name="radio-{{ $item }}" label="{{ $item }}" id="radio-{{ $item }}" color="{{ $item }}" checked />
+                    </div>
+                @endforeach
             </div>
             <div class="form__cols mt-10">
                 <div class="">
-                    <x-input-toggle name="toggle-1" label="togge" id="toggle-1" />
+                    <x-input-toggle name="toggle-1" label="toggel" id="toggle-1" />
                 </div>
                 <div class="">
-                    <x-input-toggle name="toggle-2" label="togge cheked required" id="toggle-2" checked required />
+                    <x-input-toggle name="toggle-2" label="toggel cheked required" id="toggle-2" checked required />
                 </div>
                 <div class="">
-                    <x-input-toggle name="toggle-3" label="togge disabled" id="toggle-3" disabled />
+                    <x-input-toggle name="toggle-3" label="toggel disabled" id="toggle-3" disabled />
                 </div>
                 <div class="">
-                    <x-input-toggle name="toggle-4" label="togge js state" id="toggle-4" onclick="" onblur="" onchange="" />
+                    <x-input-toggle name="toggle-4" label="toggel js state" id="toggle-4" onclick="" onblur="" onchange="" />
                 </div>
+                <div class="">
+                    <x-input-toggle name="toggle-5" label="class" class="" toggleClass="" id="toggle-5" />
+                </div>
+            </div>
+
+            <div class="form__cols mt-10">
+                @foreach (['primary', 'warning', 'danger', 'success', 'info', 'light', 'dark'] as $item)
+                    <div class="">
+                        <x-input-toggle name="toggle-{{ $item }}" color="{{ $item }}" label="{{ $item }}" id="toggle-{{ $item }}" checked />
+                    </div>
+                @endforeach
             </div>
         </x-slot>
     </x-card>

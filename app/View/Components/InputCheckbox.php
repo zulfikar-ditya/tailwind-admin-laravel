@@ -14,6 +14,10 @@ class InputCheckbox extends Component
 
     public $value;
 
+    public $class;
+
+    public $color;
+
     public $required;
 
     public $disabled;
@@ -33,7 +37,7 @@ class InputCheckbox extends Component
      *
      * @return void
      */
-    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $onclick = '', $onchange = '', $onblur = '', $helpers = '')
+    public function __construct($id = '', $name = '', $label = '', $value = '', $required = false, $disabled = false, $checked = false, $onclick = '', $onchange = '', $onblur = '', $helpers = '', $color = 'primary', $class = '')
     {
         $this->id = $id;
         $this->name = $name;
@@ -46,6 +50,8 @@ class InputCheckbox extends Component
         $this->onchange = $onchange;
         $this->onblur = $onblur;
         $this->helpers = $helpers;
+        $this->color = $color;
+        $this->class = $class;
     }
 
     /**
